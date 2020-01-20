@@ -1,9 +1,9 @@
-const LOGIN_USUARIO = "admin@email.com.br";
+const LOGIN_USUARIO = "usuario";
 const SENHA_USUARIO = "123logar";
 
 function loginPagina(){
 
-    var email = $("#emailUsuario").val();
+    var email = $("#loginUsuario").val();
     var passoword = $("#passwordUsuario").val();
 
     if ((email === LOGIN_USUARIO) && (passoword === SENHA_USUARIO))  {        
